@@ -1,0 +1,7 @@
+<!doctype html><html lang="en" data-composition-variables='[{"id":"projectName","label":"Project name","type":"string","default":"The Rose Window"},{"id":"video","label":"Scene recording","type":"string","default":"assets/project/original.mp4"}]'><head><meta charset="utf-8"><script src="assets/vendor/gsap.min.js"></script><style>
+@font-face{font-family:Inter;src:url('assets/fonts/Inter-400.woff2');font-weight:400}@font-face{font-family:Inter;src:url('assets/fonts/Inter-700.woff2');font-weight:700}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:white;font-family:Inter,sans-serif}#root{position:relative;width:100%;height:100%}.clip{position:absolute}
+</style></head><body><div id="root" data-composition-id="main" data-width="1920" data-height="1080" data-duration="22">
+<div id="layout" class="clip" data-composition-id="layout" data-composition-src="compositions/layout.html" data-start="0" data-duration="22" data-width="1920" data-height="1080" data-track-index="0" data-track-kind="graphics"></div>
+<video id="result" class="clip" src="assets/project/original.mp4" data-var-src="video" data-start="0" data-duration="22" data-track-index="1" muted playsinline style="left:568px;top:114px;width:1304px;height:733.5px;object-fit:contain;background:#141815"></video>
+</div><script>window.__timelines.main=gsap.timeline({paused:true});</script></body></html>
